@@ -25,3 +25,37 @@ header {
     max-width: 350px;
     margin-top: 140px;
 }
+
+h1 {
+    font-size: 34px;
+}
+
+.square {
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background-color: #f67c92;
+    margin: 15px 0;
+}
+
+.commonBtn {
+    padding: 18px 40px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #f67c92;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.commonBtn:hover,
+ :focus {
+    background-color: #f67c92;
+    transform: translateY(-0.25em);
+}
+
+p {
+    font-size: 15px;
+    line-height: 18px;
+    color: #777;
+}
