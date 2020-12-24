@@ -46,6 +46,8 @@ h1 {
     font-weight: bold;
     cursor: pointer;
     border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 60px;
 }
 
 .commonBtn:hover,
@@ -58,4 +60,34 @@ p {
     font-size: 15px;
     line-height: 18px;
     color: #777;
+}
+
+#sideNav {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -250px;
+    /*it hides the side nav on the web page (right:-250x)*/
+    background-color: #f67c92;
+    z-index: 2;
+}
+
+nav ul li {
+    margin: 50px 20px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#menuBtn {
+    width: 50px;
+    position: fixed;
+    right: 65px;
+    top: 35px;
+    z-index: 2;
+    cursor: pointer;
 }
