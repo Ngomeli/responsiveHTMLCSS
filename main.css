@@ -71,6 +71,8 @@ p {
     /*it hides the side nav on the web page (right:-250x)*/
     background-color: #f67c92;
     z-index: 2;
+    transition: 0.5s;
+    /*takes 0.5s to load the navbar*/
 }
 
 nav ul li {
@@ -90,4 +92,42 @@ nav ul li a {
     top: 35px;
     z-index: 2;
     cursor: pointer;
+}
+
+#about {
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.aboutImg {
+    flex-basis: 50%;
+}
+
+.aboutImg img {
+    width: 100%;
+}
+
+.aboutText {
+    flex-basis: 50%;
+    text-align: right;
+}
+
+.about-text {
+    max-width: 500px;
+    margin-right: 100px;
+    display: inline-block;
+}
+
+.about-text h2 {
+    margin: 50px 0 10px;
+    font-size: 28px;
+    font-style: italic;
+}
+
+.about-text h3 {
+    color: #777;
+    font-size: 20px;
+    font-style: italic;
 }
