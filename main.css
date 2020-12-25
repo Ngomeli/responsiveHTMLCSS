@@ -161,3 +161,77 @@
         margin-bottom: 15px;
         font-weight: 400;
     }
+    
+    .featureBtn {
+        display: flex;
+        margin: 80px auto 0;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    
+    #courses {
+        margin: 100px 0;
+    }
+    
+    .courseRow {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .courseRight {
+        flex-basis: 50%;
+    }
+    
+    .courseRight img {
+        width: 100%;
+    }
+    
+    .courseLeft {
+        flex-basis: 50%;
+    }
+    
+    .courseText {
+        max-width: 350px;
+    }
+    
+    .contactRow {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .contactLeft,
+    .contactRight {
+        flex-basis: 50%;
+    }
+    
+    .contactRight img {
+        width: 100%;
+    }
+    
+    form {
+        max-width: 350px;
+        margin: 30px 0;
+    }
+    
+    form input {
+        width: 100%;
+        padding: 12px 10px;
+        margin-bottom: 5px;
+        outline: none;
+        box-shadow: none;
+        box-sizing: border-box;
+        border: 2px solid #fab3c4;
+    }
+    
+    formBtn {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    formBtn button {
+        flex-basis: 48%;
+        padding: 18px 0;
+    }
