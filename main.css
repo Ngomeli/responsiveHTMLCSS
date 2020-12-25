@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -156,13 +157,13 @@ nav ul li a {
     /*makes the image smaller*/
 }
 
-.featureCol h4 {
+.featuresCol h4 {
     font-size: 20px;
     margin-bottom: 15px;
     font-weight: 400;
 }
 
-.featureBtn {
+.featuresBtn {
     display: flex;
     margin: 80px auto 0;
     align-items: flex-end;
@@ -225,13 +226,13 @@ form input {
     border: 2px solid #fab3c4;
 }
 
-formBtn {
+.formBtn {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-formBtn button {
+.formBtn button {
     flex-basis: 48%;
     padding: 18px 0;
 }
@@ -298,4 +299,85 @@ hr {
 .copyrightText,
 .footerLogo {
     flex-basis: 40%;
+}
+
+.socialIcons {
+    width: 50px;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.socialIcons img {
+    display: block;
+    width: 20px;
+    margin: 0 auto 20px;
+    cursor: pointer;
+}
+
+@media(max-width:770px) {
+    header {
+        background-image: none;
+    }
+    .container {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .logo {
+        margin-top: 27px;
+        width: 70px;
+    }
+    .headerText {
+        margin-top: 100px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    #menuBtn {
+        width: 40px;
+        right: 50px;
+    }
+    .commonBtn {
+        padding: 10px 16px;
+    }
+    .socialIcons img {
+        width: 14px;
+        margin: 15px auto;
+    }
+    .aboutText {
+        flex-basis: 100%;
+    }
+    .about-text {
+        margin: 50px 50px 0;
+        display: inline-block;
+    }
+    .about-text h2 {
+        font-size: 18px;
+    }
+    .featuresCol {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .courseLeft {
+        flex-basis: 100%;
+    }
+    .courseRight {
+        flex-basis: 100%;
+    }
+    .contactLeft,
+    .contactRight {
+        flex-basis: 100%;
+    }
+    .footerLeft {
+        flex-basis: 100%;
+    }
+    .footerRight {
+        flex-basis: 100%;
+    }
+    .linkTitle {
+        flex-basis: 50%;
+        margin-bottom: 20px;
+    }
 }
